@@ -3,7 +3,7 @@ name: Daily News Update
 on:
   # 매일 오전 9시(KST)에 실행 (UTC 기준 00:00)
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '34 21 * * *'
   # 수동 실행을 위한 워크플로우 디스패치
   workflow_dispatch:
 
